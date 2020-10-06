@@ -1,0 +1,40 @@
+<html>
+
+<head>
+    <title>Stay Hydrated</title>
+
+    <link rel="stylesheet" href="/css/icon.css">
+    <link rel="stylesheet" href="/css/materialize.min.css">
+    <script src="/scripts/external/jquery-3.4.1.min.js"></script>
+    <script src="/scripts/external/jquery-3.4.1.min.js"></script>
+    <script src="/scripts/external/angular.min.js"></script>
+    <script src="/scripts/external/materialize.min.js"></script>
+    <script src="/scripts/index.js"></script>
+
+</head>
+
+<body style="width:215px; height: 120px;">
+    <div ng-app="myApp" ng-controller="drinkingController">
+        <div class="input-field col s6" style="padding: 0px 5px 0px 5px">
+            <nav>
+                <div class="nav-wrapper">
+                    <div class="col s12">
+                        <a href="#!" class="breadcrumb"><b style="margin-left:5px;">Want to stay hydrated?</b></a>
+                    </div>
+                </div>
+            </nav>
+
+            <div style="float: left; margin-top:10px;">
+                <a class="waves-effect waves-light green btn-small" style="margin-left:50px;" ng-click="start()"><i
+                        class="material-icons">check</i></a>
+                <a class="waves-effect waves-light red btn-small"><i class="material-icons"
+                        ng-click="cancel()">clear</i></a>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
